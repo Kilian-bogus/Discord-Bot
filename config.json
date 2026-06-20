@@ -1,0 +1,77 @@
+{
+  "token": "your-token-here",
+  "guildId": "your-guild-id-here",
+  "welcomeChannelId": "channel-id-for-welcome-messages",
+  "logChannelId": "channel-id-for-logs",
+  "infoChannelId": "channel-id-for-information",
+  "joinRoleId": "role-id-to-assign-on-join",
+  "promoteAnnouncementChannelId": "channel-id-for-promotion-announcements",
+  "ticketPanelChannelId": "channel-id-for-ticket-panel",
+  "ticketCategoryId": "category-id-for-tickets",
+  "ticketClaimRoleId": "role-id-for-ticket-claiming",
+  "selfRolesChannelId": "role-id-for-self-roles",
+  "tempVoiceJoinChannelId": "channel-id-for-temp-voice-join",
+  "tempVoiceCategoryId": "category-id-for-temp-voice-channels",
+  "leaderboardChannelId": "channel-id-for-leaderboard",
+  "leaderboardUpdateSeconds": 1,
+  "leaderboardLimit": 25,
+  "selfRoles": [
+    {
+      "label": "label-for-role-1",
+      "roleId": "role-id-for-role-1"
+    }
+  ],
+  "updateIntervalSeconds": 60,
+  "channelNameTemplate": "ℹ️･Information | {count}",
+  "levelSystem": {
+    "minMessageXp": 15,
+    "maxMessageXp": 25,
+    "cooldownSeconds": 1,
+    "baseXp": 100,
+    "levelExponent": 1.5,
+    "progressBarLength": 10,
+    "embedColor": "#2f80ed",
+    "syncExistingMembersOnStart": true,
+    "ignoreBots": true,
+    "ignoredChannelIds": [
+      "channel-id-to-ignore-1"
+    ],
+    "ignoredRoleIds": [
+      "role-id-to-ignore-1"
+    ],
+    "levelRoles": [
+      {
+        "level": 5,
+        "roleId": "role-id-for-level-5"
+      },
+      {
+        "level": 10,
+        "roleId": "role-id-for-level-10"
+      },
+      {
+        "level": 20,
+        "roleId": "role-id-for-level-20"
+      },
+      {
+        "level": 30,
+        "roleId": "role-id-for-level-30"
+      },
+      {
+        "level": 40,
+        "roleId": "role-id-for-level-40"
+      },
+      {
+        "level": 50,
+        "roleId": "role-id-for-level-50"
+      },
+      {
+        "level": 75,
+        "roleId": "role-id-for-level-75"
+      },
+      {
+        "level": 100,
+        "roleId": "role-id-for-level-100"
+      }
+    ]
+  }
+}
